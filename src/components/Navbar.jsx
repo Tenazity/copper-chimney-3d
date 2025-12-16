@@ -108,7 +108,6 @@ export default function Navbar() {
                 <li><NavLink to="/" isActive={isActive('/')} onClick={() => setIsMenuOpen(false)}>Home</NavLink></li>
                 <li><NavLink to="/menu" isActive={isActive('/menu')} onClick={() => setIsMenuOpen(false)}>Menu</NavLink></li>
                 <li><NavLink to="/testimonials" isActive={isActive('/testimonials')} onClick={() => setIsMenuOpen(false)}>Testimonials</NavLink></li>
-                <li><NavLink to="/reserve" isActive={isActive('/reserve')} onClick={() => setIsMenuOpen(false)}>Reserve</NavLink></li>
             </ul>
 
             <style jsx>{`
